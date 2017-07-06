@@ -9,3 +9,79 @@
 [W 03:13:11.001 NotebookApp] 404 GET /api/kernels/7df58ea2-da36-46b4-832c-c6b64dc968e4/channels?session_id=F9F1B3B5C4114A1E8E8DBC7EB361539D (60.191.68.43): Kernel does not exist: 7df58ea2-da36-46b4-832c-c6b64dc968e4
 [W 03:13:11.002 NotebookApp] 404 GET /api/kernels/7df58ea2-da36-46b4-832c-c6b64dc968e4/channels?session_id=F9F1B3B5C4114A1E8E8DBC7EB361539D (60.191.68.43) 2.88ms referer=None
 [I 03:13:18.896 NotebookApp] Kernel started: cd5de196-0bcb-49a2-8631-9e94279f4e96
+[I 03:15:19.406 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 06:19:23.141 NotebookApp] Saving file at /cs231n/classifiers/fc_net.py
+[I 06:20:29.847 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 06:32:30.506 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 06:34:29.802 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 06:34:57.032 NotebookApp] Saving file at /cs231n/solver.py
+[I 06:36:29.808 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 06:38:29.775 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 06:40:30.413 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 06:44:30.588 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 07:13:33.458 NotebookApp] Saving file at /cs231n/classifiers/fc_net.py
+[I 07:24:28.205 NotebookApp] Saving file at /cs231n/classifiers/fc_net.py
+[I 07:26:30.066 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 07:28:30.083 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 07:48:51.936 NotebookApp] Saving file at /cs231n/optim.py
+[I 07:50:30.077 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 07:50:37.998 NotebookApp] Saving file at /cs231n/optim.py
+[I 07:52:30.709 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 07:53:24.217 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 07:53:57.413 NotebookApp] Kernel shutdown: cd5de196-0bcb-49a2-8631-9e94279f4e96
+[W 07:54:07.053 NotebookApp] Notebook BatchNormalization.ipynb is not trusted
+[I 07:54:07.784 NotebookApp] Kernel started: a53ee286-156b-42e6-acfa-a57db3e4a026
+[I 08:08:31.379 NotebookApp] Kernel started: 4f497c92-2263-437d-81c8-ba2bc29bbd22
+[I 08:08:42.132 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 08:08:49.690 NotebookApp] Kernel shutdown: 4f497c92-2263-437d-81c8-ba2bc29bbd22
+[I 08:08:50.094 NotebookApp] Kernel shutdown: a53ee286-156b-42e6-acfa-a57db3e4a026
+[I 08:30:09.728 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:32:09.438 NotebookApp] Saving file at /BatchNormalization.ipynb
+[W 08:32:37.377 NotebookApp] Kernel does not exist: a53ee286-156b-42e6-acfa-a57db3e4a026
+[W 08:32:37.378 NotebookApp] 404 POST /api/kernels/a53ee286-156b-42e6-acfa-a57db3e4a026/interrupt (60.191.68.43) 1.79ms referer=http://104.199.172.107:7000/notebooks/BatchNormalization.ipynb
+[I 08:32:50.148 NotebookApp] Kernel started: aed50375-4aa3-4b7c-981c-43ab73e4981a
+[I 08:34:50.205 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 09:15:47.215 NotebookApp] Saving file at /cs231n/layers.py
+[I 09:16:50.310 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 09:20:50.433 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 09:21:37.420 NotebookApp] Saving file at /cs231n/classifiers/fc_net.py
+[I 09:22:50.239 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 09:24:50.588 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 09:27:54.042 NotebookApp] Saving file at /cs231n/layer_utils.py
+[I 09:28:28.073 NotebookApp] Kernel restarted: aed50375-4aa3-4b7c-981c-43ab73e4981a
+[I 09:28:50.374 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 09:30:50.627 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 09:32:26.137 NotebookApp] Kernel shutdown: aed50375-4aa3-4b7c-981c-43ab73e4981a
+[I 09:32:34.655 NotebookApp] Kernel started: 6471adbf-adf5-416f-978d-816d6202888b
+[I 09:34:35.253 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 09:35:20.107 NotebookApp] Kernel shutdown: 6471adbf-adf5-416f-978d-816d6202888b
+[W 09:35:23.618 NotebookApp] Notebook Dropout.ipynb is not trusted
+[I 09:35:24.145 NotebookApp] Kernel started: b70d7cc6-8e7f-4f84-a85d-6a342044f9fb
+[I 09:41:24.339 NotebookApp] Saving file at /Dropout.ipynb
+[I 09:46:07.076 NotebookApp] Saving file at /cs231n/layers.py
+[I 09:47:24.381 NotebookApp] Saving file at /Dropout.ipynb
+[I 09:47:36.009 NotebookApp] Kernel started: 2f432882-12f1-4f55-9ae6-3ef2e08e71ae
+[I 09:49:37.406 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 09:51:36.548 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 10:01:36.569 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 10:03:36.888 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 10:07:36.513 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 10:09:36.309 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 10:11:36.481 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 10:39:36.939 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 10:41:36.265 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 10:49:36.512 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 10:51:36.784 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 10:55:36.442 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 10:56:03.766 NotebookApp] Kernel restarted: 2f432882-12f1-4f55-9ae6-3ef2e08e71ae
+[I 10:56:09.440 NotebookApp] Kernel interrupted: 2f432882-12f1-4f55-9ae6-3ef2e08e71ae
+[I 10:56:14.866 NotebookApp] Kernel restarted: 2f432882-12f1-4f55-9ae6-3ef2e08e71ae
+[I 10:57:36.112 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 10:58:51.868 NotebookApp] Kernel shutdown: b70d7cc6-8e7f-4f84-a85d-6a342044f9fb
+[W 10:58:57.413 NotebookApp] Notebook ConvolutionalNetworks.ipynb is not trusted
+[I 10:58:58.631 NotebookApp] Kernel started: 3bf44978-2597-49f7-9ad9-4a5d5382ada6
+[I 11:00:58.811 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 11:03:36.138 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 11:19:36.283 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 11:23:36.208 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 11:29:36.312 NotebookApp] Saving file at /FullyConnectedNets.ipynb

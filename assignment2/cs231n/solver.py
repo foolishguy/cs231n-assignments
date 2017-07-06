@@ -301,6 +301,6 @@ class Solver(object):
                     self.best_params = {}
                     for k, v in self.model.params.items():
                         self.best_params[k] = v.copy()
-
+        print('Train acc: %f; val_acc: %f' % (train_acc, self.best_val_acc))
         # At the end of training swap the best params into the model
         self.model.params = self.best_params
