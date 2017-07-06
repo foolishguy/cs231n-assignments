@@ -85,3 +85,39 @@
 [I 11:19:36.283 NotebookApp] Saving file at /FullyConnectedNets.ipynb
 [I 11:23:36.208 NotebookApp] Saving file at /FullyConnectedNets.ipynb
 [I 11:29:36.312 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 11:34:26.274 NotebookApp] Kernel shutdown: 2f432882-12f1-4f55-9ae6-3ef2e08e71ae
+[I 11:39:43.015 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 11:45:29.074 NotebookApp] Saving file at /cs231n/layers.py
+[I 11:45:42.923 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 11:47:14.994 NotebookApp] Saving file at /cs231n/layers.py
+[I 11:47:42.928 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 11:47:57.306 NotebookApp] Saving file at /cs231n/layers.py
+[I 11:49:42.940 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 11:53:19.453 NotebookApp] Saving file at /cs231n/layers.py
+[I 11:53:41.686 NotebookApp] Saving file at /cs231n/layers.py
+[I 11:53:42.925 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 11:54:26.377 NotebookApp] Saving file at /cs231n/layers.py
+[I 11:55:42.936 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 11:55:47.908 NotebookApp] Saving file at /cs231n/layers.py
+[I 11:57:42.931 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 11:58:44.019 NotebookApp] Saving file at /cs231n/layers.py
+[I 11:58:56.566 NotebookApp] Saving file at /cs231n/layers.py
+[I 11:59:42.931 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 11:59:59.131 NotebookApp] Saving file at /cs231n/layers.py
+[I 12:01:06.483 NotebookApp] Saving file at /cs231n/layers.py
+[I 12:01:43.097 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 12:02:13.167 NotebookApp] Saving file at /cs231n/layers.py
+[I 12:02:38.802 NotebookApp] Saving file at /cs231n/layers.py
+[I 12:03:43.102 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 12:04:02.101 NotebookApp] Saving file at /cs231n/layers.py
+[I 12:05:43.104 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 12:07:43.120 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[W 12:10:24.428 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 12:10:24.428 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 12:10:24.433 NotebookApp] Serving notebooks from local directory: /home/asasopo1/cs231n-assignments/assignment2
+[I 12:10:24.433 NotebookApp] 0 active kernels 
+[I 12:10:24.433 NotebookApp] The IPython Notebook is running at: http://[all ip addresses on your system]:7000/
+[I 12:10:24.433 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 12:10:28.200 NotebookApp] 404 GET /api/kernels/9a79405c-8647-4b2f-9216-22d323b98ea9/channels?session_id=28E1765E2EE14B11BF176B494C7BC054 (60.191.68.43): Kernel does not exist: 9a79405c-8647-4b2f-9216-22d323b98ea9
+[W 12:10:28.227 NotebookApp] 404 GET /api/kernels/9a79405c-8647-4b2f-9216-22d323b98ea9/channels?session_id=28E1765E2EE14B11BF176B494C7BC054 (60.191.68.43) 29.69ms referer=None
+[I 12:10:35.762 NotebookApp] Kernel started: 1a9a7d14-707c-4961-85ac-5c0d16254be9
