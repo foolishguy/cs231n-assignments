@@ -1,0 +1,11 @@
+[W 03:13:02.381 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 03:13:02.382 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 03:13:02.386 NotebookApp] Serving notebooks from local directory: /home/asasopo1/cs231n-assignments/assignment2
+[I 03:13:02.386 NotebookApp] 0 active kernels 
+[I 03:13:02.386 NotebookApp] The IPython Notebook is running at: http://[all ip addresses on your system]:7000/
+[I 03:13:02.386 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 03:13:02.857 NotebookApp] 404 GET /api/kernels/7df58ea2-da36-46b4-832c-c6b64dc968e4/channels?session_id=F9F1B3B5C4114A1E8E8DBC7EB361539D (60.191.68.43): Kernel does not exist: 7df58ea2-da36-46b4-832c-c6b64dc968e4
+[W 03:13:02.882 NotebookApp] 404 GET /api/kernels/7df58ea2-da36-46b4-832c-c6b64dc968e4/channels?session_id=F9F1B3B5C4114A1E8E8DBC7EB361539D (60.191.68.43) 27.02ms referer=None
+[W 03:13:11.001 NotebookApp] 404 GET /api/kernels/7df58ea2-da36-46b4-832c-c6b64dc968e4/channels?session_id=F9F1B3B5C4114A1E8E8DBC7EB361539D (60.191.68.43): Kernel does not exist: 7df58ea2-da36-46b4-832c-c6b64dc968e4
+[W 03:13:11.002 NotebookApp] 404 GET /api/kernels/7df58ea2-da36-46b4-832c-c6b64dc968e4/channels?session_id=F9F1B3B5C4114A1E8E8DBC7EB361539D (60.191.68.43) 2.88ms referer=None
+[I 03:13:18.896 NotebookApp] Kernel started: cd5de196-0bcb-49a2-8631-9e94279f4e96
