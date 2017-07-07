@@ -121,3 +121,14 @@
 [W 12:10:28.200 NotebookApp] 404 GET /api/kernels/9a79405c-8647-4b2f-9216-22d323b98ea9/channels?session_id=28E1765E2EE14B11BF176B494C7BC054 (60.191.68.43): Kernel does not exist: 9a79405c-8647-4b2f-9216-22d323b98ea9
 [W 12:10:28.227 NotebookApp] 404 GET /api/kernels/9a79405c-8647-4b2f-9216-22d323b98ea9/channels?session_id=28E1765E2EE14B11BF176B494C7BC054 (60.191.68.43) 29.69ms referer=None
 [I 12:10:35.762 NotebookApp] Kernel started: 1a9a7d14-707c-4961-85ac-5c0d16254be9
+[I 12:12:36.124 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 12:20:36.132 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 12:22:34.344 NotebookApp] Saving file at /cs231n/classifiers/cnn.py
+[I 12:23:23.434 NotebookApp] Saving file at /cs231n/classifiers/cnn.py
+[I 12:24:36.005 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 12:26:35.990 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 12:34:36.277 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 12:36:46.688 NotebookApp] Saving file at /cs231n/layers.py
+[I 12:38:36.070 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 03:04:38.869 NotebookApp] Saving file at /cs231n/layers.py
+[I 03:06:08.604 NotebookApp] Kernel shutdown: 1a9a7d14-707c-4961-85ac-5c0d16254be9
