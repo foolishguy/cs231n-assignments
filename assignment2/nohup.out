@@ -132,3 +132,59 @@
 [I 12:38:36.070 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
 [I 03:04:38.869 NotebookApp] Saving file at /cs231n/layers.py
 [I 03:06:08.604 NotebookApp] Kernel shutdown: 1a9a7d14-707c-4961-85ac-5c0d16254be9
+[W 05:59:31.739 NotebookApp] Notebook TensorFlow.ipynb is not trusted
+[I 05:59:33.002 NotebookApp] Kernel started: bcd31480-42d2-4b3c-80f1-04d6064a6502
+[I 06:03:33.170 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 06:41:33.366 NotebookApp] Saving file at /TensorFlow.ipynb
+[W 07:14:45.104 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 07:14:45.104 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 07:14:45.107 NotebookApp] Serving notebooks from local directory: /home/asasopo1/cs231n-assignments/assignment2
+[I 07:14:45.107 NotebookApp] 0 active kernels 
+[I 07:14:45.107 NotebookApp] The IPython Notebook is running at: http://[all ip addresses on your system]:7000/
+[I 07:14:45.107 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 07:14:51.547 NotebookApp] 404 GET /api/kernels/d9c22cb0-4f8a-4154-8172-25e86d98e79b/channels?session_id=CF0AED6DF98344D4969611E820EA3074 (60.191.68.43): Kernel does not exist: d9c22cb0-4f8a-4154-8172-25e86d98e79b
+[W 07:14:51.569 NotebookApp] 404 GET /api/kernels/d9c22cb0-4f8a-4154-8172-25e86d98e79b/channels?session_id=CF0AED6DF98344D4969611E820EA3074 (60.191.68.43) 24.31ms referer=None
+[I 07:14:58.664 NotebookApp] Kernel started: 5d4bcfb9-6292-44f0-93b9-922a7e75a412
+[I 07:16:58.820 NotebookApp] Saving file at /TensorFlow.ipynb
+2017-07-07 08:57:22.643295: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-07 08:57:22.643444: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-07 08:57:22.643462: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+[I 08:58:59.159 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 09:00:18.696 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 09:00:58.881 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 09:30:59.199 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 09:32:58.826 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 09:34:59.244 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 09:35:08.194 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 09:36:58.882 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 09:37:37.003 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 09:38:28.814 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 09:38:58.914 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 09:40:04.129 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 09:40:58.999 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 09:41:16.736 NotebookApp] Kernel started: b32ae9e0-7bb5-49db-a239-c0672f1318ba
+[I 09:42:59.072 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 09:44:58.867 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 09:46:59.042 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 09:47:16.837 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 09:48:58.881 NotebookApp] Saving file at /TensorFlow.ipynb
+[W 09:52:26.368 NotebookApp] 404 GET /edit/cs231n/classifiers/softmax.py (93.80.63.183): File does not exist: cs231n/classifiers/softmax.py
+[W 09:52:26.370 NotebookApp] 404 GET /edit/cs231n/classifiers/softmax.py (93.80.63.183) 2.29ms referer=http://yandex.ru/clck/jsredir?from=yandex.ru%3Bsearch%3Bweb%3B%3B&text=&etext=1475.ZRwit8BpENTAN6Wj-z9UUz_eDepIQ506gKjE4cC0C6i84JxoGpnOTEYNvLyeoUK5.42588b962be7d3890a04ac250b15cd54f477a5d7&uuid=&state=_BLhILn4SxNIvvL0W45KSic66uCIg23qh8iRG98qeIXmeppkgUc0YD4hgzqAYr5iuWBiLZQy-rY&data=UlNrNmk5WktYejR0eWJFYk1LdmtxbmtpTXh5dW5hRnFmSi1SZlE4Tk5KNVhEbnlOYVZfczBoTWlLaEgwaW4tYjhjNkc2Ukx0NVRfWDRuNm51YjJKSEdtcF9mNUYzQWFFc19TM3lWWlpXUHRfTXZzQ3I3dW1paWdZTUhoUkx3OWtRdkZyYWFSU0xIX1FYUjNUQVpNeDFjWEx2RDdPWGl3Sg&b64e=2&sign=a17392695ad2d11a0522606989c08e3c&keyno=0&cst=AiuY0DBWFJ7IXge4WdYJQXbYQp9t5VF6odydrStc11G-g8W_8tXvoA_uGT8Cc1Orz7dh7wC1hQYpqDQmyt_0-AmKzrVscqKtTJx853HbrzuMof6iUdw18IvRBLIQgS9OcO1B5NxpQ1NtZJ1txKKgVg&ref=orjY4mGPRjk5boDnW0uvlrrd71vZw9kp5uQozpMtKCWE0vFrzScnayBLhPLb-5Ck0YHR0Sqh3XwtpZj53KS7QGOH7BZSdG3JeIYJFnNJj6Tqb_6ORwASp8hsdJAm9j4e&l10n=ru&cts=1499420273456&mc=3.26932361508
+[I 09:58:48.099 NotebookApp] Kernel shutdown: b32ae9e0-7bb5-49db-a239-c0672f1318ba
+[I 10:58:59.297 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 11:39:54.978 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 11:40:58.967 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 11:42:58.890 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 11:44:58.880 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 11:50:59.106 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 11:56:59.325 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 11:58:58.922 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 13:50:59.862 NotebookApp] Saving file at /TensorFlow.ipynb
+[W 21:24:27.073 NotebookApp] 404 GET /edit/cs231n/classifiers/softmax.py (5.165.247.214): File does not exist: cs231n/classifiers/softmax.py
+[W 21:24:27.079 NotebookApp] 404 GET /edit/cs231n/classifiers/softmax.py (5.165.247.214) 11.35ms referer=http://yandex.ru/clck/jsredir?from=yandex.ru%3Bsearch%3Bweb%3B%3B&text=&etext=1475.56AEMZXzghaExkXDzORD3k0_Y6-i7JpHYvnGkwPa5WegHDVDYqfy7AAAd_kM7112.0bc26d0e38738b3abb91d1a37c5c03ab8c2d1bb9&uuid=&state=_BLhILn4SxNIvvL0W45KSic66uCIg23qh8iRG98qeIXmeppkgUc0YFUVNhHyyhJgRFg5yeLMIWU&data=UlNrNmk5WktYejR0eWJFYk1LdmtxbmtpTXh5dW5hRnFmSi1SZlE4Tk5KNVhEbnlOYVZfczBoTWlLaEgwaW4tYjhjNkc2Ukx0NVRfWDRuNm51YjJKSEdtcF9mNUYzQWFFc19TM3lWWlpXUHRfTXZzQ3I3dW1pdW0xS1d0STlXeUhzd3ZyTXV1X2J4MUYyM3d1N0Q2bS1WWFFRRTJKYnkxNw&b64e=2&sign=c16c0294b245a065729827d6f09e9b61&keyno=0&cst=AiuY0DBWFJ7IXge4WdYJQYP93XfrtkbaWj4Od__GJsUPQRvbAteiW_MVgOe_VS9ksQVkMOf3RRITAgWgbvWq5r2Z2jxq2BVXXdwHGb3XXGI6iMlGIH8Eb37Bxq7PnGFpWhYnoxqzQ-2xQTYQkfLXeGXk6oMCnqF-&ref=orjY4mGPRjk5boDnW0uvlrrd71vZw9kp5uQozpMtKCW8_5YQZCwByRdr_2nmVMmRpwICssaE7UgWylFeYV5QetKghYk7pSaWPywXBqmhSIYKaLJ7i4gldGGZqu3KU0j8&l10n=ru&cts=1499461840509&mc=3.88210048737
+[W 21:24:32.362 NotebookApp] 404 GET /static/components/bootstrap/fonts/glyphicons-halflings-regular.eot? (5.165.247.214) 4.30ms referer=http://104.199.172.107:7000/edit/cs231n/classifiers/softmax.py
+[W 23:32:38.181 NotebookApp] 404 GET /static/components/bootstrap/fonts/glyphicons-halflings-regular.eot? (83.217.214.182) 2.19ms referer=http://104.199.172.107:7000/tree/cs231n
+[I 02:36:01.929 NotebookApp] 302 GET / (62.210.143.84) 2.93ms
+[I 03:12:59.951 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 03:16:59.614 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 03:23:01.545 NotebookApp] Saving file at /TensorFlow.ipynb
