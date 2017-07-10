@@ -1,0 +1,4 @@
+.env/*
+assignment3/cs231n/datasets/coco_captioning/*
+squeezenet.*
+imagenet*
