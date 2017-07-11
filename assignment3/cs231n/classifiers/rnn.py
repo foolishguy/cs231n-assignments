@@ -116,31 +116,53 @@ class CaptioningRNN(object):
         W_vocab, b_vocab = self.params['W_vocab'], self.params['b_vocab']
 
         loss, grads = 0.0, {}
-        ############################################################################
-        # TODO: Implement the forward and backward passes for the CaptioningRNN.   #
-        # In the forward pass you will need to do the following:                   #
+
         # (1) Use an affine transformation to compute the initial hidden state     #
         #     from the image features. This should produce an array of shape (N, H)#
+        h0 = np.dot(features, W_proj) + b_proj
+
         # (2) Use a word embedding layer to transform the words in captions_in     #
         #     from indices to vectors, giving an array of shape (N, T, W).         #
+        x, cache_word_embedding = word_embedding_forward(captions_in, W_embed)
+
         # (3) Use either a vanilla RNN or LSTM (depending on self.cell_type) to    #
         #     process the sequence of input word vectors and produce hidden state  #
         #     vectors for all timesteps, producing an array of shape (N, T, H).    #
+        if self.cell_type == 'rnn':
+            h_rnn, cache_rnn = rnn_forward(x, h0, Wx, Wh, b)
+        elif self.cell_type == 'lstm':
+            h_rnn, cache_rnn = rnn_forward(x, h0, Wx, Wh, b)
+
         # (4) Use a (temporal) affine transformation to compute scores over the    #
         #     vocabulary at every timestep using the hidden states, giving an      #
         #     array of shape (N, T, V).                                            #
+        scores, cache_scores = temporal_affine_forward(h_rnn, W_vocab, b_vocab)
+
         # (5) Use (temporal) softmax to compute loss using captions_out, ignoring  #
         #     the points where the output word is <NULL> using the mask above.     #
-        #                                                                          #
-        # In the backward pass you will need to compute the gradient of the loss   #
-        # with respect to all model parameters. Use the loss and grads variables   #
-        # defined above to store loss and gradients; grads[k] should give the      #
-        # gradients for self.params[k].                                            #
-        ############################################################################
-        pass
-        ############################################################################
-        #                             END OF YOUR CODE                             #
-        ############################################################################
+        loss, dscores = temporal_softmax_loss(scores, captions_out, mask, verbose=False)
+
+        # (4) 
+        dx_h_rnn, dW_h_rnn, db_h_rnn = temporal_affine_backward(dscores, cache_scores)
+
+        # (3) 
+        dx, dh0, dWx, dWh, db = rnn_backward(dx_h_rnn, cache_rnn)
+
+        # (2) 
+        dW_embed = word_embedding_backward(dx, cache_word_embedding)
+
+        # (1) 
+        dW_proj = np.dot(features.T, dh0)
+        db_proj = np.sum(dh0, axis=0)
+
+        grads['W_proj'] = dW_proj
+        grads['b_proj'] = db_proj
+        grads['W_embed'] = dW_embed
+        grads['Wx'] = dWx
+        grads['Wh'] = dWh
+        grads['b'] = db
+        grads['W_vocab'] = dW_h_rnn
+        grads['b_vocab'] = db_h_rnn
 
         return loss, grads
 
