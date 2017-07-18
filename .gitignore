@@ -1,5 +1,5 @@
 assignment2/.env/*
 assignment3/.env/*
 assignment3/cs231n/datasets/coco_captioning/*
-squeezenet.*
+squeezenet.ckpt*
 imagenet*
